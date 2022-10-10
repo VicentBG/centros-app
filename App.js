@@ -1,10 +1,10 @@
 import { StyleSheet, SafeAreaView } from 'react-native';
-import LoginVista from './src/vistas/LoginVista';
+import Navigation from './src/navigation';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.root}>
-      <LoginVista />
+      <Navigation />
     </SafeAreaView>
   );
 }
